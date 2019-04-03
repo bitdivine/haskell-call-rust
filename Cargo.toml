@@ -1,0 +1,11 @@
+[package]
+name = "haskellrs"
+version = "0.1.0"
+authors = ["Max <max@winning.black>"]
+edition = "2018"
+
+[lib]
+name = "rusty"
+crate-type = ["staticlib"]
+
+[dependencies]
